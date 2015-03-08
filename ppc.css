@@ -1,0 +1,102 @@
+body {
+	font-family: Helvetica;
+}
+/*classes*/
+.container {
+	width: 960px;
+	margin: 0 auto;
+	border-right: 1px solid gray;
+	border-left: 1px solid gray;
+}
+.header {
+	background-color: #F4F8F8;
+}
+.textbox{
+	display: inline-block;
+	width: 400px;
+	margin-left: 50px;
+}
+.automotive {
+	display: inline-block;
+	width: 230px;
+}
+.commercial{
+	display: inline-block;
+	width: 230px;
+}
+.industrial{
+	display: inline-block;
+	width: 230px;
+}
+.diesel{
+	display: inline-block;
+	width: 230px;
+}
+.yellow {
+	background-color: yellow;
+	width: 220px;
+	margin-bottom: 0px;
+}
+.main {
+	background-color: black;
+}
+
+.navigation a:link {
+	text-decoration: none;
+	color: gray;
+	padding: 5px;
+}
+.navigation li{
+	list-style-type:none;
+	display: inline;
+	border-right: 1px solid gray;
+}
+.navigation {
+	background-color: lightgray;
+	height: 30px;
+	margin-top: -20px;
+	padding-top: 20px;
+}
+.auto {
+	font-size: 10px;
+	background-color: #FFFFE2;
+	margin-top: -3px;
+	width: 220px;
+}
+.button{
+	background-color: yellow;
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	text-decoration: none;
+	color: black;
+	margin-left: 140px;
+}
+
+.gray {
+	background-color: gray;
+	font-size: 15px;
+	margin-top: -20px;
+}
+/*IDs*/
+#phone {
+	display: inline-block;
+	margin-left: 300px;
+	margin-top: 10px;
+}
+
+#bigpic {
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	margin-left: 40px;
+}
+#about {
+	width: 400px;
+	background-color: yellow;
+}
+#text{
+	background-color: gray;
+	font-size: 15px;
+	margin-top: -20px;
+}
